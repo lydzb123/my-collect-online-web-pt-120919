@@ -7,4 +7,4 @@ def my_collect(array)
   end
 end
 
-my_collect(array) {|language| array.upcase}
+my_collect(array) {|language| array.join(" ").upcase}
