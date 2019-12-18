@@ -3,6 +3,6 @@ def my_collect(array)
   collection= []
   while i < array.length
   i += 1
-  yield(array[i].upcase)
+  yield(array[i])
   end
 end
