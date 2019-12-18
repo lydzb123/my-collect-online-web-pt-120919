@@ -4,7 +4,7 @@ def my_collect(array)
   while i < array.length
   i += 1
 
-  collection <<yield(array.upcase)
+  collection <<yield(array[i])
   end
 
 end
