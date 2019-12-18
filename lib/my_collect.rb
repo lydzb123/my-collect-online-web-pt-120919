@@ -8,4 +8,4 @@ def my_collect(array)
   collection
 end
 
-my_collect(array){|lang| lang.upcase}
+my_collect(array){|lang| "#{lang.upcase}"}
