@@ -10,4 +10,4 @@ def my_collect(array)
   collection
 end
 
-my_collect(["Tim", "Tom", "Sophie", "Antoin"]) { |name| puts "Hi, #{name}" }
+my_collect(["Tim", "Tom", "Sophie", "Antoin"]) { |name| "Hi, #{name}" }
